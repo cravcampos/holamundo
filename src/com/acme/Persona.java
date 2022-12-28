@@ -1,6 +1,6 @@
 package com.acme;
 
-public record Persona(String nombre, String apellidos){
+public record Persona(String nombre, String apellidos) {
 
     @Override
     public String toString() {
